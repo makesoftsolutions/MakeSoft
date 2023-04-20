@@ -1,0 +1,25 @@
+.services .servicesrow{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.services .mobileservicesrow{
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.25em;
+}
+
+.services .serviceicon{
+    width: 10em;
+}
+
+.services li{
+    list-style-type: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.services li:hover{
+    transform: scale(110%);
+}

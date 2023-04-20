@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import { BrowserRouter, useLocation } from 'react-router-dom';
+import Approutes from './routes';
+import { useState,useEffect } from 'react';
+
+
+function AppContent() {
+  const location = useLocation();
+  const [mobile,setmobile] = useState(window.innerHeight > window.innerWidth)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setmobile(window.innerHeight > window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  return (
+    <div className="App">
+      <Header titles={["Quem somos", "Objetivos", "Serviços", "Contato"]} path={location.pathname} mobile={mobile}/>
+      <Approutes mobile={mobile}/>
+      <Footer mobile={mobile} gmail="gmail@gmail.com" instagram="@instagram" linkedin="linkedin"/>
+    </div>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
   );
 }
 
