@@ -33,7 +33,7 @@ export default function Header(props) {
                     <div className='mobilesubheaders' style={{ display: linksvisibility ? '' : 'none' }} onDragLeave={()=>{setlinksvisibility(false)}}>
                         {props.titles.map((title) => {
                             return (
-                                <Link to={relativepath + texttourl(title)} className='mobilesubheader' id={urltotext[props.path.toString()] === title.toString() ? 'active' : 'inactive'} key={title} onClick={() => {
+                                <Link to={relativepath + texttourl(title)} className='mobilesubheader' id={urltotext[props.path.toString().replace(relativepath,"")] === title.toString() ? 'active' : 'inactive'} key={title} onClick={() => {
                                      setlinksvisibility(!linksvisibility)
                                      window.scrollTo({top:0,behavior:"smooth"})
                                 }}>{title}</Link>
@@ -45,7 +45,7 @@ export default function Header(props) {
                 <div className='headers'>
                     {props.titles.map((title) => {
                         return (
-                            <Link to={relativepath + texttourl(title)} className='subheader' id={urltotext[props.path.toString()] === title.toString() ? 'active' : 'inactive'} onClick={()=>{window.scrollTo({top:0,behavior:"smooth"})}} key={title}>{title}</Link>
+                            <Link to={relativepath + texttourl(title)} className='subheader' id={urltotext[props.path.toString().replace(relativepath,"")] === title.toString() ? 'active' : 'inactive'} onClick={()=>{window.scrollTo({top:0,behavior:"smooth"})}} key={title}>{title}</Link>
                         )
                     })}
                 </div>
