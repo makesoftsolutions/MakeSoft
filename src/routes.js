@@ -4,7 +4,7 @@ import Whoweare from "./components/whoweare/whoweare"
 import Services from "./components/services/services"
 import Contactform from "./components/form/form"
 
-export const relativepath = "/makesoft_solutions"
+export const relativepath = "/MakeSoft"
 
 export default function Approutes(props){
     return(
