@@ -1,21 +1,22 @@
 import "./footer.css"
+import { Link } from "react-router-dom"
 import {SiGmail,SiInstagram,SiLinkedin} from "react-icons/si"
 
 export default function Footer(props){
     return(
         <div className="footer">
-            <div className="footerlink">
+            <Link to={props.redirects[0]} target="_blank"  className="footerlink">
                 <SiGmail className="icon"/>
-                <a href={props.redirects[0]} rel="noreferrer" target="_blank" className={props.mobile ? "hidetext":"showtext"} >{props.gmail}</a>
-            </div>
-            <div className="footerlink">
+                <p className={props.mobile ? "hidetext":"showtext"} >{props.gmail}</p>
+            </Link>
+            <Link to={props.redirects[0]} target="_blank" className="footerlink">
                 <SiInstagram className="icon"/>
-                <a href={props.redirects[1]} rel="noreferrer" target="_blank"  className={props.mobile ? "hidetext":"showtext"}>{props.instagram}</a>
-            </div>
-            <div className="footerlink">
+                <p className={props.mobile ? "hidetext":"showtext"}>{props.instagram}</p>
+            </Link>
+            <Link to={props.redirects[0]} target="_blank" className="footerlink">
                 <SiLinkedin className="icon"/>
-                <a href={props.redirects[2]} rel="noreferrer" target="_blank"  className={props.mobile ? "hidetext":"showtext"}>{props.linkedin}</a>
-            </div>
+                <p className={props.mobile ? "hidetext":"showtext"}>{props.linkedin}</p>
+            </Link>
         </div>
     )
 }
