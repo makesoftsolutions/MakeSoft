@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MakeSoft/static/css/main.8a79eb99.css",
+    "main.css": "/MakeSoft/static/css/main.3cf80415.css",
     "main.js": "/MakeSoft/static/js/main.c73cdaab.js",
     "static/media/example.jpg": "/MakeSoft/static/media/example.7b0111850d7f5a72b0f4.jpg",
     "static/media/example2.jpg": "/MakeSoft/static/media/example2.0e90e5198fa7604ad5e0.jpg",
@@ -10,11 +10,11 @@
     "static/media/modeling-3d.png": "/MakeSoft/static/media/modeling-3d.b151375809008545744c.png",
     "static/media/maquina-de-corte-a-laser.png": "/MakeSoft/static/media/maquina-de-corte-a-laser.10dc95c8a7100d39f877.png",
     "index.html": "/MakeSoft/index.html",
-    "main.8a79eb99.css.map": "/MakeSoft/static/css/main.8a79eb99.css.map",
+    "main.3cf80415.css.map": "/MakeSoft/static/css/main.3cf80415.css.map",
     "main.c73cdaab.js.map": "/MakeSoft/static/js/main.c73cdaab.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a79eb99.css",
+    "static/css/main.3cf80415.css",
     "static/js/main.c73cdaab.js"
   ]
 }
