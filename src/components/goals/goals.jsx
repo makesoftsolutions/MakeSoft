@@ -1,13 +1,14 @@
 import Presentation from "../presentation/presentation"
 import Picturesrow from "../picturesrow/picturesrow"
 
-var dummy = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla massa magna, facilisis vitae erat vel, varius porta purus. Maecenas rhoncus at magna ut aliquet. Integer viverra odio at diam imperdiet, in commodo enim porttitor. Nulla tellus elit, interdum sit amet molestie eu, tincidunt in risus. Nullam a semper nisi. Vestibulum suscipit velit in dolor consectetur porta. Nulla at justo erat. Aenean in imperdiet ipsum. Proin tincidunt eget leo eu tincidunt. Etiam tristique dolor eget fringilla ornare. Sed accumsan nulla id sem dictum, ut dapibus libero tempor. Ut porttitor blandit felis eu ornare. Proin nisl mauris, ullamcorper et augue ut, efficitur sagittis risus."
-
+const p1 = "Na nossa empresa júnior, temos como objetivo principal fornecer soluções tecnológicas em prototipagem, impressão 3D, modelagem e corte a laser para empresas e pessoas que buscam inovação em seus projetos."
+const p2 = "Como objetivos específicos, incluímos fornecer serviços de alta qualidade a preços acessíveis, garantindo sua satisfação e fidelização. Buscar sempre a inovação e melhoria de nossos serviços, acompanhando as tendências do mercado e as necessidades dos nossos clientes. "
+const p3 = "Acreditamos que ao alcançar nossos objetivos, estamos contribuindo para a formação de uma sociedade mais inovadora, empreendedora e tecnológica."
 
 export default function Goals(props) {
     return (
         <div className="goals">
-            <Presentation title={"Objetivos"} paragraphs={[dummy, dummy + "a"]} mobile={props.mobile} />
+            <Presentation title={"Objetivos"} paragraphs={[p1,p2,p3]} mobile={props.mobile} />
             <Picturesrow title={"Fotos"} mobile={props.mobile} />
         </div>
     )
