@@ -10,6 +10,16 @@
     color:white
 }
 
+.logoandtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoandtitle h1{
+    font-weight: normal;
+}
+
 .mobileheader{
     display: flex;
     justify-content: space-between;

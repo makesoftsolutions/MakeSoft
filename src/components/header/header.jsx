@@ -26,7 +26,10 @@ export default function Header(props) {
 
     return (
         <div className={props.mobile ? "mobileheader" : "header"}>
-            <img className={props.mobile ? 'mobilelogo' : 'logo'} src={logo} alt='logo' />
+            <div className='logoandtitle'>
+                <img className={props.mobile ? 'mobilelogo' : 'logo'} src={logo} alt='logo' />
+                <h1>Makesoft Solutions</h1>
+            </div>
             {props.mobile ?
                 <div className='mobilemenu'>
                     <AiOutlineMenu className="mobileheaders" onClick={() => { setlinksvisibility(!linksvisibility) }} />
