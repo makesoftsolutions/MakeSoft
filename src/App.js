@@ -24,7 +24,7 @@ function AppContent() {
     <div className="App">
       <Header titles={["Quem somos", "Objetivos", "Serviços", "Contato"]} path={location.pathname} mobile={mobile}/>
       <Approutes mobile={mobile}/>
-      <Footer mobile={mobile} gmail="gmail@gmail.com" instagram="@instagram" linkedin="linkedin" redirects={["https://www.google.com.br/","https://www.google.com.br/","https://www.google.com.br/"]}/>
+      <Footer mobile={mobile} gmail="solutionsmakesoft@gmail.com" instagram="@makesoftsolutions" linkedin="linkedin" redirects={["https://mail.google.com","https://www.instagram.com/makesoftsolutions/","https://www.linkedin.com/in/makesoft-solutions-824693272"]}/>
     </div>
   );
 }
