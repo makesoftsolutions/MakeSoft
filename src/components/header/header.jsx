@@ -28,7 +28,7 @@ export default function Header(props) {
         <div className={props.mobile ? "mobileheader" : "header"}>
             <div className='logoandtitle'>
                 <img className={props.mobile ? 'mobilelogo' : 'logo'} src={logo} alt='logo' />
-                <h1>Makesoft Solutions</h1>
+                <h1>{props.mobile ? "": "Makesoft Solutions"}</h1>
             </div>
             {props.mobile ?
                 <div className='mobilemenu'>
