@@ -24,7 +24,7 @@ function AppContent() {
     <div className="App">
       <Header titles={["Quem somos", "Objetivos", "Serviços", "Contato"]} path={location.pathname} mobile={mobile}/>
       <Approutes mobile={mobile}/>
-      <Footer mobile={mobile} gmail="gmail@gmail.com" instagram="@instagram" linkedin="linkedin"/>
+      <Footer mobile={mobile} gmail="gmail@gmail.com" instagram="@instagram" linkedin="linkedin" redirects={["https://www.google.com.br/","https://www.google.com.br/","https://www.google.com.br/"]}/>
     </div>
   );
 }

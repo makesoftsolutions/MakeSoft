@@ -6,15 +6,15 @@ export default function Footer(props){
         <div className="footer">
             <div className="footerlink">
                 <SiGmail className="icon"/>
-                <p className={props.mobile ? "hidetext":"showtext"}>{props.gmail}</p>
+                <a href={props.redirects[0]} rel="noreferrer" target="_blank" className={props.mobile ? "hidetext":"showtext"} >{props.gmail}</a>
             </div>
             <div className="footerlink">
                 <SiInstagram className="icon"/>
-                <p className={props.mobile ? "hidetext":"showtext"}>{props.instagram}</p>
+                <a href={props.redirects[1]} rel="noreferrer" target="_blank"  className={props.mobile ? "hidetext":"showtext"}>{props.instagram}</a>
             </div>
             <div className="footerlink">
                 <SiLinkedin className="icon"/>
-                <p className={props.mobile ? "hidetext":"showtext"}>{props.linkedin}</p>
+                <a href={props.redirects[2]} rel="noreferrer" target="_blank"  className={props.mobile ? "hidetext":"showtext"}>{props.linkedin}</a>
             </div>
         </div>
     )

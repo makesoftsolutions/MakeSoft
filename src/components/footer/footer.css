@@ -27,3 +27,7 @@
 .footer .footerlink .hidetext{
 display: none;
 }
+
+.footer .footerlink a{
+    text-decoration: none;
+}
