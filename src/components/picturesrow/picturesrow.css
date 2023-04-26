@@ -36,9 +36,10 @@
 }
 
 .picturesrow .mobilearrowicon{
+    background-color: #273f32;
+    color: white;
     transform: scale(200%);
     cursor: pointer;
     margin: -2em;
-    border-radius: 2em;
-    transition: 300ms;
+    border-radius: 0.125em;
 }

@@ -2,8 +2,8 @@ import "./picturesrow.css"
 import {AiOutlineArrowRight, AiOutlineArrowLeft} from 'react-icons/ai'
 import { useState } from "react"
 
-import picture1 from "../../images/example.jpg"
-import picture2 from "../../images/example2.jpg"
+import picture1 from "../../images/image0.jpeg"
+import picture2 from "../../images/image1.jpeg"
 
 const pictures=[picture1,picture2]
 
