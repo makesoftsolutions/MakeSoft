@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MakeSoft/static/css/main.80f25f83.css",
-    "main.js": "/MakeSoft/static/js/main.c215864c.js",
-    "static/media/example.jpg": "/MakeSoft/static/media/example.7b0111850d7f5a72b0f4.jpg",
-    "static/media/example2.jpg": "/MakeSoft/static/media/example2.0e90e5198fa7604ad5e0.jpg",
+    "main.css": "/MakeSoft/static/css/main.7637523b.css",
+    "main.js": "/MakeSoft/static/js/main.6ed1664a.js",
+    "static/media/image0.jpeg": "/MakeSoft/static/media/image0.371e5845ae36556855e5.jpeg",
+    "static/media/image1.jpeg": "/MakeSoft/static/media/image1.488603af70e29af29f32.jpeg",
     "static/media/logo.png": "/MakeSoft/static/media/logo.8386f3f9a5c47bad53d3.png",
     "static/media/customise.png": "/MakeSoft/static/media/customise.a04d0467625567a8c2dd.png",
     "static/media/3d-printer.png": "/MakeSoft/static/media/3d-printer.75e32f2d69ac752c4ef0.png",
     "static/media/modeling-3d.png": "/MakeSoft/static/media/modeling-3d.b151375809008545744c.png",
     "static/media/maquina-de-corte-a-laser.png": "/MakeSoft/static/media/maquina-de-corte-a-laser.10dc95c8a7100d39f877.png",
     "index.html": "/MakeSoft/index.html",
-    "main.80f25f83.css.map": "/MakeSoft/static/css/main.80f25f83.css.map",
-    "main.c215864c.js.map": "/MakeSoft/static/js/main.c215864c.js.map"
+    "main.7637523b.css.map": "/MakeSoft/static/css/main.7637523b.css.map",
+    "main.6ed1664a.js.map": "/MakeSoft/static/js/main.6ed1664a.js.map"
   },
   "entrypoints": [
-    "static/css/main.80f25f83.css",
-    "static/js/main.c215864c.js"
+    "static/css/main.7637523b.css",
+    "static/js/main.6ed1664a.js"
   ]
 }
