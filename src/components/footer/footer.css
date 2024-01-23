@@ -32,3 +32,9 @@ display: none;
 .footer .footerlink a{
     text-decoration: none;
 }
+
+.whatsapp-icon {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+  }
