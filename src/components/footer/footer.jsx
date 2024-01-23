@@ -21,7 +21,7 @@ export default function Footer(props){
             </Link>
 
       <a href="https://wa.me/32227576" target="_blank" rel="noreferrer" className="footerlink">
-        <img src={contabilidade} alt="CLM-contabilidade" className="whatsapp-icon" />
+        <img src={contabilidade} alt="CLM-contabilidade" className="contabilidade-icon" />
         <p className={props.mobile ? "hidetext" : "showtext"}>CLM-contabilidade</p>
       </a>
 
