@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7637523b.css",
-    "main.js": "/static/js/main.e792932a.js",
+    "main.css": "/static/css/main.ce28fc27.css",
+    "main.js": "/static/js/main.bb4a5ecb.js",
+    "static/media/contabilidade.png": "/static/media/contabilidade.cba8dd57bd6b229412f0.png",
     "static/media/image0.jpeg": "/static/media/image0.371e5845ae36556855e5.jpeg",
     "static/media/image1.jpeg": "/static/media/image1.488603af70e29af29f32.jpeg",
     "static/media/logo.png": "/static/media/logo.8386f3f9a5c47bad53d3.png",
@@ -10,11 +11,11 @@
     "static/media/modeling-3d.png": "/static/media/modeling-3d.b151375809008545744c.png",
     "static/media/maquina-de-corte-a-laser.png": "/static/media/maquina-de-corte-a-laser.10dc95c8a7100d39f877.png",
     "index.html": "/index.html",
-    "main.7637523b.css.map": "/static/css/main.7637523b.css.map",
-    "main.e792932a.js.map": "/static/js/main.e792932a.js.map"
+    "main.ce28fc27.css.map": "/static/css/main.ce28fc27.css.map",
+    "main.bb4a5ecb.js.map": "/static/js/main.bb4a5ecb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7637523b.css",
-    "static/js/main.e792932a.js"
+    "static/css/main.ce28fc27.css",
+    "static/js/main.bb4a5ecb.js"
   ]
 }
